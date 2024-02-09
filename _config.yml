@@ -39,7 +39,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -70,7 +70,7 @@ github_username: stavros # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: stavros_it # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: skalapothas # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: Cq8HsGUAAAAJ # your Google Scholar ID
 semanticscholar_id: 2132280403 # your Semantic Scholar ID
@@ -131,7 +131,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -168,19 +168,19 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
