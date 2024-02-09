@@ -3,6 +3,81 @@
 
 @string{aps = {American Physical Society,}}
 
+@Article{info14020064,
+AUTHOR = {Kalapothas, Stavros and Galetakis, Manolis and Flamis, Georgios and Plessas, Fotis and Kitsos, Paris},
+TITLE = {A Survey on RISC-V-Based Machine Learning Ecosystem},
+JOURNAL = {Information},
+VOLUME = {14},
+YEAR = {2023},
+NUMBER = {2},
+ARTICLE-NUMBER = {64},
+URL = {https://www.mdpi.com/2078-2489/14/2/64},
+ISSN = {2078-2489},
+ABSTRACT = {In recent years, the advancements in specialized hardware architectures have supported the industry and the research community to address the computation power needed for more enhanced and compute intensive artificial intelligence (AI) algorithms and applications that have already reached a substantial growth, such as in natural language processing (NLP) and computer vision (CV). The developments of open-source hardware (OSH) and the contribution towards the creation of hardware-based accelerators with implication mainly in machine learning (ML), has also been significant. In particular, the reduced instruction-set computer-five (RISC-V) open standard architecture has been widely adopted by a community of researchers and commercial users, worldwide, in numerous openly available implementations. The selection through a plethora of RISC-V processor cores and the mix of architectures and configurations combined with the proliferation of ML software frameworks for ML workloads, is not trivial. In order to facilitate this process, this paper presents a survey focused on the assessment of the ecosystem that entails RISC-V based hardware for creating a classification of system-on-chip (SoC) and CPU cores, along with an inclusive arrangement of the latest released frameworks that have supported open hardware integration for ML applications. Moreover, part of this work is devoted to the challenges that are concerned, such as power efficiency and reliability, when designing and building application with OSH in the AI/ML domain. This study presents a quantitative taxonomy of RISC-V SoC and reveals the opportunities in future research in machine learning with RISC-V open-source hardware architectures.},
+DOI = {10.3390/info14020064}
+}
+
+@Article{info13060279,
+AUTHOR = {Kalapothas, Stavros and Flamis, Georgios and Kitsos, Paris},
+TITLE = {Efficient Edge-AI Application Deployment for FPGAs},
+JOURNAL = {Information},
+VOLUME = {13},
+YEAR = {2022},
+NUMBER = {6},
+ARTICLE-NUMBER = {279},
+URL = {https://www.mdpi.com/2078-2489/13/6/279},
+ISSN = {2078-2489},
+ABSTRACT = {Field Programmable Gate Array (FPGA) accelerators have been widely adopted for artificial intelligence (AI) applications on edge devices (Edge-AI) utilizing Deep Neural Networks (DNN) architectures. FPGAs have gained their reputation due to the greater energy efficiency and high parallelism than microcontrollers (MCU) and graphical processing units (GPU), while they are easier to develop and more reconfigurable than the Application Specific Integrated Circuit (ASIC). The development and building of AI applications on resource constraint devices such as FPGAs remains a challenge, however, due to the co-design approach, which requires a valuable expertise in low-level hardware design and in software development. This paper explores the efficacy and the dynamic deployment of hardware accelerated applications on the Kria KV260 development platform based on the Xilinx Kria K26 system-on-module (SoM), which includes a Zynq multiprocessor system-on-chip (MPSoC). The platform supports the Python-based PYNQ framework and maintains a high level of versatility with the support of custom bitstreams (overlays). The demonstration proved the reconfigurabibilty and the overall ease of implementation with low-footprint machine learning (ML) algorithms.},
+DOI = {10.3390/info13060279}
+}
+
+@Article{electronics10161912,
+AUTHOR = {Flamis, Georgios and Kalapothas, Stavros and Kitsos, Paris},
+TITLE = {Best Practices for the Deployment of Edge Inference: The Conclusions to Start Designing},
+JOURNAL = {Electronics},
+VOLUME = {10},
+YEAR = {2021},
+NUMBER = {16},
+ARTICLE-NUMBER = {1912},
+URL = {https://www.mdpi.com/2079-9292/10/16/1912},
+ISSN = {2079-9292},
+ABSTRACT = {The number of Artificial Intelligence (AI) and Machine Learning (ML) designs is rapidly increasing and certain concerns are raised on how to start an AI design for edge systems, what are the steps to follow and what are the critical pieces towards the most optimal performance. The complete development flow undergoes two distinct phases; training and inference. During training, all the weights are calculated through optimization and back propagation of the network. The training phase is executed with the use of 32-bit floating point arithmetic as this is the convenient format for GPU platforms. The inference phase on the other hand, uses a trained network with new data. The sensitive optimization and back propagation phases are removed and forward propagation is only used. A much lower bit-width and fixed point arithmetic is used aiming a good result with reduced footprint and power consumption. This study follows the survey based process and it is aimed to provide answers such as to clarify all AI edge hardware design aspects from the concept to the final implementation and evaluation. The technology as frameworks and procedures are presented to the order of execution for a complete design cycle with guaranteed success.},
+DOI = {10.3390/electronics10161912}
+}
+
+@INPROCEEDINGS{9566259,
+  author={Flamis, Georgios and Kalapothas, Stavros and Kitsos, Paris},
+  booktitle={2021 6th South-East Europe Design Automation, Computer Engineering, Computer Networks and Social Media Conference (SEEDA-CECNSM)}, 
+  title={Workflow on CNN utilization and inference in FPGA for embedded applications: 6th South-East Europe Design Automation, Computer Engineering, Computer Networks and Social Media Conference (SEEDA-CECNSM 2021)}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Training;Performance evaluation;Computational modeling;Wearable computers;Tools;Software;Time measurement;FPGA;CNN;embedded;MNIST;execution time;performance},
+  doi={10.1109/SEEDA-CECNSM53056.2021.9566259}}
+
+@INPROCEEDINGS{9460248,
+  author={Kalapothas, Stavros and Flamis, Georgios and Kitsos, Paris},
+  booktitle={2021 10th Mediterranean Conference on Embedded Computing (MECO)}, 
+  title={Importing Custom DNN Models on FPGAs}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-4},
+  keywords={Machine learning algorithms;Computational modeling;Neural networks;Software algorithms;Transforms;Tools;Hardware;deep neural networks (DNNs);deep learning (DL);fpga;vhdl},
+  doi={10.1109/MECO52532.2021.9460248}}
+
+@INPROCEEDINGS{9939632,
+  author={Flamis, Georgios and Kalapothas, Stavros and Kitsos, Paris},
+  booktitle={2022 IFIP/IEEE 30th International Conference on Very Large Scale Integration (VLSI-SoC)}, 
+  title={FPGA-SoC Deployment of Complex Deep Neural Network for Magnitude and Phase Computations in Denoising of Speech Signal}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Deep learning;Costs;Neural networks;Noise reduction;Computer architecture;Speech enhancement;Very large scale integration;speech enhancement;complex spectrogram;phase processing;deep neural network;reconstruction},
+  doi={10.1109/VLSI-SoC54400.2022.9939632}}
+
 @book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
