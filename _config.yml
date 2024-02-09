@@ -73,9 +73,9 @@ mastodon_username: # your mastodon instance+username in the format instance.tld/
 linkedin_username: skalapothas # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: Cq8HsGUAAAAJ # your Google Scholar ID
-semanticscholar_id: 2132280403 # your Semantic Scholar ID
+semanticscholar_id: # 2132280403 # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: 0000-0002-8261-5898 # your ORCID ID
+orcid_id: # 0000-0002-8261-5898 # your ORCID ID
 medium_username: stavrosk # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -85,10 +85,10 @@ research_gate_profile: # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
-keybase_username: stevaras # your keybase user name
+keybase_username: # stevaras # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url: https://dblp.org/pid/304/3648 # your DBLP profile url
+dblp_url: # https://dblp.org/pid/304/3648 # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
@@ -98,7 +98,7 @@ unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
 youtube_id: stevaras # your youtube channel id (youtube.com/@<youtube_id>)
-discord_id: 570239562450862111 # your discord id (18-digit unique numerical identifier)
+discord_id: #570239562450862111 # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
@@ -264,7 +264,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [] # [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
@@ -309,7 +309,7 @@ scholar:
 # Display different badges withs stats for your publications
 enable_publication_badges:
   altmetric: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
+  dimensions: false # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
