@@ -1,5 +1,6 @@
 ---
 layout: page
+title: repos
 permalink: /repositories/
 title: 
 description:
