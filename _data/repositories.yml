@@ -1,12 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - stavros
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - stavros/ebaz4205
+  - stavros/Multiplier4bit
+  - stavros/4bitCounterParLoad
+  - stavros/FSM_CarAlarm
+  - stavros/UART
+  - stavros/LedToggle
+  - stavros/1DMedianFilterASM
+  - stavros/CastaliaGCF
+  - stavros/raspberry-noaa-v2

@@ -32,3 +32,15 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"kitsos":
+  - firstname: ["Kitsos", "Paris Kitsos", "P., Kitsos", "Kitsos, P."]
+    url: https://scholar.google.com/citations?user=ByA11KQAAAAJ
+
+"flamis":
+  - firstname: ["Flamis", "Georgios Flamis", "G., Flamis", "Flamis, G."]
+    url: https://scholar.google.com/citations?user=6tKDjBMAAAAJ
+
+"plessas":
+  - firstname": ["Plessas", "F Plessas", "FC Plessas", "Fotis Plessas"]
+    url: https://scholar.google.com/citations?user=kplNQX0AAAAJ
