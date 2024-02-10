@@ -69,7 +69,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: stavros # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: stavros_it # your X handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+mastodon_username: fosstodon.org/@stavrosk # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: skalapothas # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: Cq8HsGUAAAAJ # your Google Scholar ID
@@ -81,7 +81,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Stavros-Kalapothas # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
@@ -122,8 +122,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Stavros # blog_name will be displayed in your blog page
+blog_description: writing about hardware, embedded and staff
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -131,7 +131,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: false
+  enabled: true
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -158,7 +158,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@stavrosk/feed
+    rss_url: https://stavrosk.medium.com/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -282,10 +282,10 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kalapothas]
+  first_name: [Stavros, S.]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
@@ -308,8 +308,8 @@ scholar:
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
-  altmetric: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: false # Dimensions badge (https://badge.dimensions.ai/)
+  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
