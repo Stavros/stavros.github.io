@@ -11,3 +11,4 @@ github_repos:
   - stavros/1DMedianFilterASM
   - stavros/CastaliaGCF
   - stavros/raspberry-noaa-v2
+  - stavros/weblogic-ansible
