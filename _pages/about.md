@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I have a particular focus in spatial computing and FPGAs for compute intensive workloads at the Edge, as well exploring the RISC-V architecture including soft/hard processors and SoC for hardware acceleration. I work together with my supervisor [Prof. Paris Kitsos](https://scholar.google.com/citations?user=ByA11KQAAAAJ). 
+I have a particular focus on spatial computing and FPGAs for compute intensive workloads at the Edge, as well exploring the RISC-V architecture including soft/hard processors and SoC for hardware acceleration. I work together with my supervisor [Prof. Paris Kitsos](https://scholar.google.com/citations?user=ByA11KQAAAAJ). 
 
 My research experience also entails embedded systems and internet of things with multi-modal sensor technologies.
 
