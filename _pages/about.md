@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD researcher, member of the Electronics, Systems and Applications <a href='https://github.com/ECSAlab'>ECSA Lab</a>
+subtitle: PhD researcher, member of the <a href='https://ecsalab.ece.uop.gr/'>Electronics, Systems and Applications (ECSA) Lab</a> at the University of Peloponnese.
 
 profile:
-  align: right
+  align: center
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>stavros@ubinet.gr</p>
+    <p>stavros [at] ubinet . gr</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
